@@ -4,8 +4,6 @@ WORKDIR /usr/src/app
 
 ENV NODE_ENV production
 
-ENV PORT 8080
-
 # Just copy the package.json...
 COPY package*.json ./
 
